@@ -1,9 +1,10 @@
-﻿namespace SortingAlgorithms.ComparisonBased
+﻿
+namespace SortingAlgorithms.ComparisonBased
 {
     internal class QuickSort
     {
 
-        static void Sort(int[] array, int start, int end)
+        internal static void Sort(int[] array, int start, int end)
         {
             if (end <= start) return;
 
@@ -14,7 +15,7 @@
 
         }
 
-        static int Partition(int[] array, int start, int end)
+        internal static int Partition(int[] array, int start, int end)
         {
             int pivot = array[end];
             int i = start - 1;
